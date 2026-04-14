@@ -6,3 +6,25 @@ package-lock.json
 .DS_Store
 .cursor/
 .cursor*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Backend runtime artifacts
+*.sqlite
+*.sqlite3
+*.db
+
+# Next.js
+.next/
+out/
+
+# Logs
+*.log
